@@ -1,0 +1,11 @@
+  <% if (title == "Home") { %>
+  <%- include content_partials/home_content.ejs -%>
+  <% } else if{ %> 
+  <%- include content_partials/about_content.ejs -%>
+    <% } else if{ %> 
+  <%- include content_partials/projects_content.ejs -%>
+    <% } else if{ %> 
+  <%- include content_partials/services_content.ejs -%>
+    <% } else { %> 
+  <%- include content_partials/contact_content.ejs -%>
+  <% } %>

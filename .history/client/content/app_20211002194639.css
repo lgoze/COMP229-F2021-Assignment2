@@ -1,0 +1,44 @@
+/* Custom css goes in here */
+
+h1 
+{
+    color: #34b4eb;
+}
+
+background-image {
+    width:100%;
+    height: auto;
+}
+
+body {
+    background-image: url('/assets/images/city.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+#main {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#content {
+    color:#cf34eb;
+    padding-top: 70px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+    padding-left: 80px;
+}
+
+.rectangle {
+    border-radius: 25px;
+    border: 2px solid #34b4eb;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: #555;
+    opacity: 0.2;
+    
+  }

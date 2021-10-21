@@ -1,0 +1,25 @@
+/* Custom css goes in here */
+
+h1 
+{
+    color: #34b4eb;
+}
+
+background-image {
+    width:100%;
+    height: auto;
+}
+
+body {
+    background-image: url('/assets/images/city.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+#content {
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+}

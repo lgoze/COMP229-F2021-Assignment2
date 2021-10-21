@@ -1,0 +1,49 @@
+{
+  "name": "assignment1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "engines": {
+    "node": "^14.18.0",
+    "npm": "^6.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "http-errors": "^1.6.3",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.6",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/debug": "^4.1.7",
+    "@types/ejs": "^3.1.0",
+    "@types/express": "^4.17.13",
+    "@types/http-errors": "^1.8.1",
+    "@types/jquery": "^3.5.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.3",
+    "nodemon": "^2.0.13"
+  },
+  "description": "Assignment1 Complete",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgoze/COMP229-F2021-Assignment1.git"
+  },
+  "author": "Lester Dan Goze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgoze/COMP229-F2021-Assignment1/issues"
+  },
+  "homepage": "https://github.com/lgoze/COMP229-F2021-Assignment1#readme"
+}

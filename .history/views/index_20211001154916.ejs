@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='./content/app.css' />
+    <link rel="stylesheet" href="./@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Insert Logo Here</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about"><i class="far fa-address-card"></i> About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects"><i class="fas fa-server"></i> Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services"><i class="fas fa-tasks"></i> Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Main Content Start-->
+    <main class="container">
+      <div class="Jumbotron">
+        <h1 class="display-3"> Hello, Welcome to the <%= title %> page</h1>
+      </div>
+  </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">&copy; 2021 Lester Dan Goze. All rights reserved </a>
+      </div>
+    </nav>
+    <!-- Footer End -->
+
+    <!--Javascript Section-->
+    <script src="./scripts/app.js"></script>
+    <script src="./jquery/dist/jquery.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
